@@ -1,11 +1,13 @@
 html body {
-    margin: 0;
+    margin: 5;
 }
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
+    /* flex-wrap: wrap; */
     min-height: 100vh;
     justify-content: center;
+    /* flex-direction: column; */
     flex-direction: row;
     /*justify-content: space-between;*/
     justify-content: space-around;
@@ -16,9 +18,9 @@ html body {
 
 
 img {
-    width: 200px;
+    width: 150px;
     height: 200px;
-    margin: 10px;
+    margin: 15px;
     box-shadow: 10px 10px 5px 0px rgba(3,3,3,0.4);
-    background-color: aquamarine;
+    background-color: rgb(99, 227, 99);
 }
